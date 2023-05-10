@@ -20,7 +20,7 @@ const CartItem = props => {
     <KitchenContext.Consumer>
       {value => {
         const {activeTheme} = value
-
+        console.log(activeTheme)
         const cartItemHeading = activeTheme === 'light' ? '#183b56' : '#f1f1f1'
         const val = name
 
